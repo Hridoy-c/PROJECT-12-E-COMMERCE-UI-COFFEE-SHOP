@@ -1,12 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- header section start -->
+      <header>
+        <nav class="navbar">
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+
+          <div class="logo">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C8 2 4 6 4 12c0 5 3.5 9 8 9s8-4 8-9c0-1.2-.2-2.3-.6-3.3C17.8 10 15 12 12 12c2-3 2-7 0-10z"
+              />
+            </svg>
+            <span>BEANRO</span>
+          </div>
+
+          <button class="order-btn">Order Now</button>
+        </nav>
+      </header>
+      <!-- header section end -->
+
+      <!-- section 1 start -->
+      <section class="section-1">
+        <h1 class="headline">Freshly Brewed<br />Moments Start Here</h1>
+
+        <div class="visual">
+          <img
+            src="./image/sec1-main-img2.png"
+            alt=""
+            class="splash-img"
+            aria-hidden="true"
+          />
+          <img
+            src="./image/sec1-main-img1.png"
+            alt="Iced coffee"
+            class="cup-img"
+          />
+        </div>
+      </section>
+      <!-- section 1 end -->
+
+      <!-- section 2 start -->
+      <section class="section-2">
+        <p class="eyebrow">About Beanro</p>
+        <p class="about-text">
+          At Beanro, we believe coffee
+          <img src="sec1-main-img1.png" alt="" class="inline-img" />
+          is more than a drink — it's an experience. Sourcing
+          <svg class="inline-bean" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 3C7 3 3 7 3 12s4 9 9 9 9-4 9-9-4-9-9-9z"
+              fill="#7D2C0F"
+            />
+            <path
+              d="M12 3.5C9 6 9 18 12 20.5"
+              stroke="#F9F0E1"
+              stroke-width="1.4"
+              fill="none"
+            />
+          </svg>
+          premium beans to perfecting each brew
+        </p>
+      </section>
+      <!-- section 2 end -->
+    </main>
+  </body>
 </html>
